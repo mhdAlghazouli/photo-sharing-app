@@ -134,7 +134,7 @@ app.listen(port, () => {
 function someMiddleware(req, res, next) {
   console.log("the middleware function has fired");
 
-  const isValidUser = false;
+  const isValidUser = true;
 
   if(isValidUser){
 
